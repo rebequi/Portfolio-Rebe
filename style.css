@@ -1,11 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;900&display=swap');
 
 
+body { margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+
+}
 .link-nav {
     background-color: #fafafa;
     color: red;
     text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
     list-style: none;
     display: flex;
     justify-content: flex-end;
@@ -18,14 +22,61 @@
     height: 100vh;
 }
 
-.misconocimientos {
-    background-color: chocolate;
-    height: 100vh;
+
+
+.contenedor {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 1.25em;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color: #2E2E31;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
+
+.seccion-principal {
+    
+
+    padding: 40px 20px;
+    background-color: #fff;
+    border: 1px solid #dddfe5;
+    border-radius: 8px;
+    margin: 10px;
+    width: 250px;
+    height: 210px;
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.imagen {
+    width: 100px;
+    height: 95px;
+}
+
+.text-parrafo-1 {
+    font-weight: 300;
+    font-size: 17px;
+    text-align: center;
+    line-height: 1.4;
+}
+
+.tittle-parrafo-1 {
+    text-align: center;
+    font-weight: 900;
+    font-size: 45px;
+    margin-top: 60px;
+}
 .frase {
-    background-color: grey;
+    background-color: #FFD23F;
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .proyectos {
