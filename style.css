@@ -6,14 +6,20 @@ body { margin: 0px;
     font-family: 'Montserrat', sans-serif;
 
 }
-.link-nav {
-    background-color: #fafafa;
-    color: red;
-    text-decoration: none;
-    list-style: none;
-    display: flex;
-    justify-content: flex-end;
 
+.navegacion {display: flex;
+    justify-content: flex-end;
+}
+
+
+.linkheader {
+    background-color: #fafafa;
+    margin-right: 10px;
+    color: rgb(0, 0, 0);
+    list-style: none;
+    text-decoration: none;
+    
+    
 }
 
 
