@@ -7,26 +7,38 @@ body { margin: 0px;
 
 }
 
-.navegacion {display: flex;
+.navegacion {
+    
+    background-color: #fafafa;
+    height: 70px;
+    display: flex;
+    align-items: center;
     justify-content: flex-end;
 }
 
 
 .linkheader {
-    background-color: #fafafa;
+   
     margin-right: 10px;
     color: rgb(0, 0, 0);
     list-style: none;
     text-decoration: none;
-    
-    
+
 }
 
 
 .presentacion {
-    background-color: blueviolet;
+    background-color: #fdebee;
     height: 100vh;
+    display: flex;
+    justify-content: space-between;
 }
+
+.texto-presentacion { text-align: center;
+
+}
+
+.imagen-presentacion 
 
 
 
