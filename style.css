@@ -28,19 +28,36 @@ body { margin: 0px;
 
 
 .presentacion {
-    background-color: #fdebee;
+    background-color: #fcecf5;
     height: 100vh;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .texto-presentacion { text-align: center;
 
 }
 
-.imagen-presentacion 
+.tittle-parrafo-presentacion: {    font-size: 40px;
+
+}
 
 
+.nombre { font-weight: 900;
+    font-size: 60px;
+    color: #000000;
+}
+.imagen-presentacion {
+    height: 800px;
+}
+
+
+.misconocimientos {display: flex;
+    justify-content: center;
+    height: 100vh;
+
+
+}
 
 .contenedor {
     margin-top: 50px;
@@ -90,7 +107,7 @@ body { margin: 0px;
 }
 .frase {
     background-color: #FFD23F;
-    height: 100vh;
+    height: 75vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -98,11 +115,21 @@ body { margin: 0px;
 }
 
 .proyectos {
-    background-color: rgb(30, 189, 210);
+    background-color: ;
     height: 100vh;
 }
 
+
+
 .footer {
-    background-color: rgb(210, 30, 93);
-    height: 100vh;
+    background-color: #00C793;
+    height: 35vh;
+}
+
+.navegacion-footer { display: flex;
+    justify-content: center;
+    
+
+
+
 }
