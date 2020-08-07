@@ -51,10 +51,6 @@ body { margin: 0px;
 
 .tittle-parrafo-presentacion: {   
      font-size: 50px;
-
-
-    
-
 }
 
 
@@ -187,13 +183,13 @@ body { margin: 0px;
 /* aqui termina "proyectos"*/
 
 .footer {
-    background-color: #238be0;
+    background-color: #FFD953 ;
     height: 100vh;
     
 }
 
 .navegacion-footer { display: flex;
-    
+  
     justify-content: center;
     padding-top: 110px;
 
