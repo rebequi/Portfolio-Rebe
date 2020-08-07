@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;900&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@900&display=swap');
 body { margin: 0px;
     padding: 0px;
     font-family: 'Montserrat', sans-serif;
@@ -26,10 +25,18 @@ body { margin: 0px;
 
 }
 
+.linkheader-boton-azul {
+    color: whitesmoke;
+    background-color: teal;
+    text-decoration: none;
+  
+}
+/* aqui termina navegacion */
 
 .presentacion {
-    background-color: #fcecf5;
+    background-color: #ffd1be;
     height: 100vh;
+   
     display: flex;
     justify-content: center;
 }
@@ -38,23 +45,32 @@ body { margin: 0px;
 
 }
 
-.tittle-parrafo-presentacion: {    font-size: 40px;
+.tittle-parrafo-presentacion: {   
+     font-size: 50px;
+
+
+    
 
 }
 
 
-.nombre { font-weight: 900;
+.nombre { 
+    
+    font-weight: 900;
     font-size: 60px;
     color: #000000;
+    margin-top: 10px;
 }
 .imagen-presentacion {
-    height: 800px;
+    height: auto;
+    width: 120%;
 }
 
+/* aqui termina presentacion */
 
-.misconocimientos {display: flex;
-    justify-content: center;
-    height: 100vh;
+
+.misconocimientos {
+    height: 120vh;
 
 
 }
@@ -105,31 +121,78 @@ body { margin: 0px;
     font-size: 45px;
     margin-top: 60px;
 }
+
+/* aqui termina misconocimientos */
+
+/* empieza la frase */
 .frase {
-    background-color: #FFD23F;
+    background-color: #FF7033;
     height: 75vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    color:whitesmoke
+    
 
 }
 
-.proyectos {
+.comilla {
+    font-family: 'Passion One', cursive;
+    font-size: 100px;
+    margin-bottom: 0;
+}
+
+.oracion {
+    font-size: 20px;
+    font-style: italic;
+}
+.VirginiaWolf {margin-top: 50px;
+    font-weight: 60px;
+    
+}
+    
+/* aqui termina la frase*/
+
+/* empieza proyectos */
+.container-listaproyectos { 
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+
+} 
+.proyectos-container {
     background-color: ;
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1000px;
 }
+.seccion-principal-proyectos {
+    padding: 40px 20px;
+    background-color: #fff;
+    border: 1px solid #151b2c;
+    border-radius: 8px;
+    margin: 10px;
+    width: 250px;
+    height: 210px;
+    text-align: center;
 
-
+/* aqui termina "proyectos"*/
 
 .footer {
-    background-color: #00C793;
-    height: 35vh;
+    background-color: #238be0;
+    height: 100vh;
+    
 }
 
 .navegacion-footer { display: flex;
-    justify-content: center;
     
-
-
+    justify-content: center;
+    padding-top: 110px;
 
 }
+
+/* aqui termina "footer"*/
