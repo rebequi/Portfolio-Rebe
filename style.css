@@ -35,9 +35,10 @@ body {
     text-decoration: none;
     font-weight: 200;
     height: 30px;
-    width:150px;
+    width:250px;
     padding: 5px;
     border-radius: 100px;
+    margin-left: 50px;
    
   
 }
@@ -71,11 +72,17 @@ body {
     font-size: 60px;
     color: #000000;
     margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.estudiante {
+    margin-bottom: 50px;
 }
 .imagen-presentacion {
     height: auto;
     width: 120%;
 }
+
 
 /* aqui termina presentacion */
 
@@ -167,6 +174,11 @@ body {
 
 /* empieza proyectos */
 
+.proyectos {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
 
 .listaproyectos { 
     display: flex;
@@ -197,15 +209,20 @@ body {
 .footer {
     background-color: #FFC0BE ;
     display: flex;
+    justify-content: center;
     
     
 }
 
 .navegacion-footer { display: flex;
-  
     justify-content: center;
-    padding-top: 110px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 
+}
+
+.text-footer {
+    margin: 0px;
 }
 
 /* aqui termina "footer"*/
