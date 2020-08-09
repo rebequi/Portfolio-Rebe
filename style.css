@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@900&display=swap');
-body { margin: 0px;
-    padding: 0px;
+
+* {
+    margin: 0px
+}
+
+body {
     font-family: 'Montserrat', sans-serif;
 
 }
@@ -30,26 +34,33 @@ body { margin: 0px;
     background-color: #4BBEBE;
     text-decoration: none;
     font-weight: 200;
-    height: 40px;
-    padding: 0 20px;
+    height: 30px;
+    width:150px;
+    padding: 5px;
     border-radius: 100px;
+   
   
 }
 /* aqui termina navegacion */
 
 .presentacion {
-    background-color: #ffd1be;
+    background: url(./img/fondo-presentacion.jpg);
+    background-position: center;
+    background-size: cover;
     height: 100vh;
-   
     display: flex;
     justify-content: center;
+    padding: 50px;
+    
+
 }
 
 .texto-presentacion { text-align: center;
+    margin-top: 80px;
 
 }
 
-.tittle-parrafo-presentacion: {   
+.tittle-parrafo-presentacion: {
      font-size: 50px;
 }
 
@@ -126,7 +137,7 @@ body { margin: 0px;
 
 /* empieza la frase */
 .frase {
-    background-color: #FF7033;
+    background-color: #7F95D1;
     height: 75vh;
     display: flex;
     flex-direction: column;
@@ -139,8 +150,8 @@ body { margin: 0px;
 
 .comilla {
     font-family: 'Passion One', cursive;
-    font-size: 100px;
-    margin-bottom: 0;
+    font-size: 180px;
+   
 }
 
 .oracion {
@@ -155,36 +166,38 @@ body { margin: 0px;
 /* aqui termina la frase*/
 
 /* empieza proyectos */
-.container-listaproyectos { 
+
+
+.listaproyectos { 
     display: flex;
     justify-content: center;
     flex-direction: row;
+    margin-top: 50px;
+    
 
 
 } 
 .proyectos-container {
     background-color: ;
-    height: 100vh;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     max-width: 1000px;
+    margin-top: 30px;
 }
-.seccion-principal-proyectos {
-    padding: 40px 20px;
-    background-color: #fff;
-    border: 1px solid #151b2c;
-    border-radius: 8px;
-    margin: 10px;
-    width: 250px;
-    height: 210px;
-    text-align: center;
+
+.imagen-proyecto {height: 150px;
+    width: auto;
+
+
+}
 
 /* aqui termina "proyectos"*/
 
 .footer {
-    background-color: #FFD953 ;
-    height: 100vh;
+    background-color: #FFC0BE ;
+    display: flex;
+    
     
 }
 
