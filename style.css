@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@900&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
 * {
     margin: 0px
 }
@@ -38,7 +41,6 @@ body {
     width:250px;
     padding: 5px;
     border-radius: 100px;
-    margin-left: 50px;
    
   
 }
@@ -51,13 +53,18 @@ body {
     height: 100vh;
     display: flex;
     justify-content: center;
-    padding: 50px;
+    flex-direction: row;
+    align-items: center;
     
 
 }
 
 .texto-presentacion { text-align: center;
-    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
 
 }
 
@@ -80,7 +87,7 @@ body {
 }
 .imagen-presentacion {
     height: auto;
-    width: 120%;
+    width: 100%;
 }
 
 
@@ -95,7 +102,6 @@ body {
 
 .contenedor {
     margin-top: 50px;
-    text-align: center;
     font-size: 1.25em;
     font-weight: 700;
     font-family: 'Montserrat', sans-serif;
@@ -109,21 +115,23 @@ body {
 .seccion-principal {
     
 
-    padding: 40px 20px;
+    padding: 30px;
     background-color: #fff;
-    border: 1px solid #dddfe5;
+    border: 1px solid #cecece;
     border-radius: 8px;
     margin: 10px;
     width: 250px;
     height: 210px;
-    display: inline-block;
-    box-sizing: border-box;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .imagen {
     width: 100px;
     height: 95px;
+    margin-bottom: 50px;
 }
 
 .text-parrafo-1 {
@@ -166,7 +174,8 @@ body {
     font-style: italic;
 }
 .VirginiaWolf {margin-top: 50px;
-    font-weight: 60px;
+    font-size: 20px;
+    
     
 }
     
@@ -178,6 +187,7 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    align-items: center;
 }
 
 .listaproyectos { 
@@ -190,15 +200,18 @@ body {
 
 } 
 .proyectos-container {
+    font-size: 12px;
+    font-weight: 700;
     background-color: ;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     max-width: 1000px;
     margin-top: 30px;
+    margin-bottom: 50px;
 }
 
-.imagen-proyecto {height: 150px;
+.imagen-proyecto {height: 220px;
     width: auto;
 
 
@@ -209,6 +222,8 @@ body {
 .footer {
     background-color: #FFC0BE ;
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
     
     
@@ -221,8 +236,15 @@ body {
 
 }
 
+.iconos {
+    margin-bottom: 50px;
+}
+
 .text-footer {
-    margin: 0px;
+    margin-bottom: 50px;
 }
 
 /* aqui termina "footer"*/
+
+
+/* empieza media */
