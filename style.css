@@ -273,9 +273,10 @@ body {
 
     /* empieza presentacion */
 
-    .presentacion {
+    .texto-presentacion, .presentacion {
      flex-wrap: wrap;
      width: 100%;
+     justify-content: center;
     }
 
      /* empieza mis conocimientos*/
