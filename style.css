@@ -22,6 +22,10 @@ body {
     justify-content: flex-end;
 }
 
+.menu-hamburguesa {
+    display: none;
+    }
+
 
 .linkheader {
    
@@ -44,6 +48,10 @@ body {
    
   
 }
+
+.linkheader-boton-azul:hover {
+    background-color: #FF82A9;
+}
 /* aqui termina navegacion */
 
 .presentacion {
@@ -55,6 +63,8 @@ body {
     justify-content: center;
     flex-direction: row;
     align-items: center;
+    padding-left: 50px;
+   
     
 
 }
@@ -117,7 +127,7 @@ body {
 
     padding: 30px;
     background-color: #fff;
-    border: 1px solid #cecece;
+    border: 1.5px solid #a1b0f7;
     border-radius: 8px;
     margin: 10px;
     width: 250px;
@@ -135,6 +145,7 @@ body {
 }
 
 .text-parrafo-1 {
+    margin-top: 50px;
     font-weight: 300;
     font-size: 17px;
     text-align: center;
@@ -248,3 +259,18 @@ body {
 
 
 /* empieza media */
+@media (max-width: 600px) {
+    .navegacion li{
+        display: none;
+
+    }
+
+    .menu-hamburguesa {
+        display: block;
+
+    }
+
+    .presentacion {
+     flex-wrap: wrap;
+    }
+}
