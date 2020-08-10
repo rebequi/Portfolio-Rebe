@@ -267,10 +267,48 @@ body {
 
     .menu-hamburguesa {
         display: block;
+        margin-right: 30px;
 
     }
+
+    /* empieza presentacion */
 
     .presentacion {
      flex-wrap: wrap;
+     width: 100%;
     }
+
+     /* empieza mis conocimientos*/
+
+    .misconocimientos{
+        flex-wrap: wrap;
+        height:  100%;
+
+    }
+
+    .contenedor{
+        flex-wrap: wrap;
+        height:  100%;
+
+    }
+
+     /* empieza la frase*/
+   
+    .frase{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+/* empiezan los proyectitos*/
+    .proyectos{
+        flex-wrap: wrap;
+    }
+
+    /* empieza el footer*/
+    .footer {
+        flex-wrap: wrap;
+
+    }
+
+
 }
