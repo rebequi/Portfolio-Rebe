@@ -251,6 +251,11 @@ body {
     margin-bottom: 50px;
 }
 
+.devicon-github-plain, .fas , .fa-envelope {
+    color: black;
+    font-size: 35px;
+}
+
 .text-footer {
     margin-bottom: 50px;
 }
@@ -259,6 +264,8 @@ body {
 
 
 /* empieza media */
+
+
 @media (max-width: 600px) {
     .navegacion li{
         display: none;
@@ -299,6 +306,11 @@ body {
         flex-wrap: wrap;
         width: 100%;
     }
+    .oracion {
+        font-size: 15px;
+    }
+
+
 
 /* empiezan los proyectitos*/
     .proyectos{
@@ -307,8 +319,14 @@ body {
 
     /* empieza el footer*/
     .footer {
-        flex-wrap: wrap;
+        flex-wrap: wrap
 
+    }
+    .navegacion-footer {
+        display: none;
+    }
+    .iconos {
+        margin-top: 50px;
     }
 
 
