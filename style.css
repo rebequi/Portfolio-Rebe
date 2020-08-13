@@ -274,9 +274,11 @@ body {
 
     .menu-hamburguesa {
         display: block;
-        margin-right: 30px;
+        margin-right: 10px;
 
     }
+
+    
 
     /* empieza presentacion */
 
@@ -284,6 +286,27 @@ body {
      flex-wrap: wrap;
      width: 100%;
      justify-content: center;
+    }
+
+    .tittle-parrafo-presentacion {
+        margin-top: 15px;
+    }
+
+    .linkheader-boton-azul {
+        width: 110px;
+    }
+
+    .nombre,  {
+        font-size: 40px;
+
+    }
+    .estudiante {
+        font-size: 15px;
+    }
+
+    .imagen-presentacion {
+        width: 90%;
+    
     }
 
      /* empieza mis conocimientos*/
