@@ -5,20 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-     <!--  styles -->
+    <!--  styles -->
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" type="image/ico" href="favicon.ico">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/konpa/devicon@master/devicon.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
-       <!-- final styles -->
+    <!-- final styles -->
 </head>
 
 <body>
     <header class="header">
         <nav>
-            
+            <div class=menu-hamburguesa><i class="fas fa-bars"></i></div>
             <ul class="navegacion">
-                <div class=menu-hamburguesa><i class="fas fa-bars"></i></div>
+
                 <li class="linkheader">
                     <a href="#hola" class="linkheader">HOLA</a>
                 </li>
@@ -42,7 +42,11 @@
             <h5 class=nombre> Rebeca Ballesteros</h5>
             <p class=estudiante>Estudiante de desarrollo Frontend, de gastronomía y amante del dibujo </p>
 
-            <div class=" linkheader-boton-azul">Lo que hago</div>
+            <div class="loquehago"> 
+                
+              <a href = "#proyectos" class ="linkheader-boton-azul"></a> Lo que hago </a>
+
+                </div> 
         </div>
         <div class=imagen-rebeca>
 
@@ -64,33 +68,33 @@
 
         <div class="contenedor">
 
-            <div class="seccion-principal">
+            <div class="tarjetas">
                 <img class="imagen" src="./img/1.png">
                 <p>HTML 5</p>
 
             </div>
-            <div class="seccion-principal">
+            <div class="tarjetas">
                 <img class="imagen" src="./img/2.png">
                 <p>GIT</p>
             </div>
 
-            <div class="seccion-principal">
+            <div class="tarjetas">
                 <img class="imagen" src="./img/3.png">
                 <p>React</p>
             </div>
         </div>
         <div class="contenedor">
-            <div class="seccion-principal">
+            <div class="tarjetas">
                 <img class="imagen" src="./img/4.png">
                 <p>JavaScript</p>
             </div>
-            <div class="seccion-principal">
+            <div class="tarjetas">
                 <img class="imagen" src="./img/5.png">
                 <p>Sass</p>
             </div>
 
 
-            <div class="seccion-principal">
+            <div class="tarjetas">
                 <img class="imagen" src="./img/6.png">
                 <p>CSS 3</p>
             </div>
@@ -118,7 +122,7 @@
 
 
     <!--  inicio de proyectitos  -->
-    <section id ="proyectos" class="proyectos">
+    <section id="proyectos" class="proyectos">
 
         <div>
             <p class="tittle-parrafo-1"> Mis proyectos</p>
@@ -148,39 +152,39 @@
 
         <div class="proyectos-container">
 
-            <div class="seccion-principal">
+            <div class="tarjetas">
                 <img class="imagen-proyecto" src=./img/download.png>
 
                 <p>Portfolio</p>
             </div>
 
-            <div class="seccion-principal">
+            <div class="tarjetas">
                 <img class="imagen-proyecto" src=./img/tienda.png>
 
                 <p>Tienda</p>
             </div>
 
-            <div class=" seccion-principal">
+            <div class=" tarjetas">
                 <img class="imagen-proyecto" src=./img/memory-game.png>
                 <p>Juego de Memoria</p>
             </div>
 
-            <div class="seccion-principal">
+            <div class="tarjetas">
                 <img class="imagen-proyecto" src=./img/control-gasto.png>
                 <p>Controlador de gastos</p>
             </div>
 
-            <div class="seccion-principal">
+            <div class="tarjetas">
                 <img class="imagen-proyecto" src=./img/admi-reu.png>
                 <p>Administrador de reuniones</p>
             </div>
 
-            <div class="seccion-principal">
+            <div class="tarjetas">
                 <img class="imagen-proyecto" src=./img/app.png>
                 <p>Todo app</p>
             </div>
 
-            <div class="seccion-principal">
+            <div class="tarjetas">
                 <img class="imagen-proyecto" src=./img/movies.png>
                 <p>Buscador de peliculas</p>
             </div>
@@ -213,18 +217,24 @@
             </ul>
         </nav>
 
-        <div class="iconos">
-            <p >
-                
-                <a href = https://github.com/rebequi/><i class="devicon-github-plain"></i></a>
-                <a href = rebk1998@icloud.com><i class="fas fa-envelope"></i></a>
-            
+        <div class="contacto">
+            <div class=github>
+                <a href=https://github.com/rebequi /><i class="devicon-github-plain"></i></a>
 
-            </p>
+            </div>
+            <div class="email">
+                <a href="mailto:rebk1998@icloud.com"><i class="fas fa-envelope"></i></a>
+
+            </div>
+            <div class="linkedin">
+                <a href=https://www.linkedin.com/in/rebeca-ballesteros-a341651b5 /><i
+                    class="devicon-linkedin-plain"></i></a>
+
+            </div>
         </div>
 
-        <div class="Text-footer">
-            <span >Hecho con ❤️ por Rebe de Ada</span>
+        <div class="text-footer">
+            <span>Hecho con ❤️ por Rebe de Ada</span>
         </div>
 
     </footer>

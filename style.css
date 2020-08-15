@@ -35,6 +35,9 @@ body {
     text-decoration: none;
 
 }
+.linkheader:hover {
+    color: #FF82A9
+}
 
 .linkheader-boton-azul {
     color: whitesmoke;
@@ -46,7 +49,6 @@ body {
     padding: 5px;
     border-radius: 100px;
    
-  
 }
 
 .linkheader-boton-azul:hover {
@@ -86,7 +88,7 @@ body {
 .nombre { 
     
     font-weight: 900;
-    font-size: 60px;
+    font-size: 55px;
     color: #000000;
     margin-top: 10px;
     margin-bottom: 50px;
@@ -95,6 +97,7 @@ body {
 .estudiante {
     margin-bottom: 50px;
 }
+
 .imagen-presentacion {
     height: auto;
     width: 100%;
@@ -104,25 +107,29 @@ body {
 /* aqui termina presentacion */
 
 
+
 .misconocimientos {
-    height: 120vh;
-
-
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .contenedor {
-    margin-top: 50px;
-    font-size: 1.25em;
+    
+    font-size: 20px;
     font-weight: 700;
-    font-family: 'Montserrat', sans-serif;
-    color: #2E2E31;
     display: flex;
-    flex-direction: row;
     justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin-top: 30px;
+    margin-bottom: 50px;
 }
 
 
-.seccion-principal {
+.tarjetas {
     
 
     padding: 30px;
@@ -135,13 +142,14 @@ body {
     text-align: center;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 
 .imagen {
-    width: 100px;
-    height: 95px;
-    margin-bottom: 50px;
+    margin-top: 20px;
+    width: auto;
+    height: 100px;
 }
 
 .text-parrafo-1 {
@@ -213,7 +221,6 @@ body {
 .proyectos-container {
     font-size: 12px;
     font-weight: 700;
-    background-color: ;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -247,14 +254,26 @@ body {
 
 }
 
-.iconos {
+/* aqui puse display flex para poner los iconos uno al lado del otro, si lo borro se colocan verticales */
+.contacto {
     margin-bottom: 50px;
+    display: flex;
+    text-decoration: none;
+   
 }
 
-.devicon-github-plain, .fas , .fa-envelope {
-    color: black;
+
+
+.devicon-github-plain, .fas , .fa-envelope, .devicon-linkedin-plain {
     font-size: 35px;
+    margin-left: 20px;
+    color: black;
+   
+
+
 }
+
+    
 
 .text-footer {
     margin-bottom: 50px;
@@ -272,40 +291,59 @@ body {
 
     }
 
+    .header {
+        display: flex;
+        justify-content: end;
+
+    }
+    
     .menu-hamburguesa {
         display: block;
-        margin-right: 10px;
-
+        
     }
 
     
 
     /* empieza presentacion */
 
+    .tittle-parrafo-1 {
+        font-size: 30px;
+    }
+
     .texto-presentacion, .presentacion {
      flex-wrap: wrap;
      width: 100%;
      justify-content: center;
+     padding: 0;
+     
     }
 
     .tittle-parrafo-presentacion {
         margin-top: 15px;
+        
     }
 
     .linkheader-boton-azul {
         width: 110px;
+
     }
 
-    .nombre,  {
+    .nombre  {
         font-size: 40px;
 
     }
     .estudiante {
         font-size: 15px;
+        max-width: 500px;
+    }
+
+    .imagen-rebeca {
+        display: flex;
+        justify-content: center;
     }
 
     .imagen-presentacion {
-        width: 90%;
+        width: 85%;
     
     }
 
@@ -323,6 +361,8 @@ body {
 
     }
 
+
+
      /* empieza la frase*/
    
     .frase{
@@ -330,7 +370,8 @@ body {
         width: 100%;
     }
     .oracion {
-        font-size: 15px;
+        font-size: 20px;
+        padding: 40px;
     }
 
 
@@ -348,7 +389,7 @@ body {
     .navegacion-footer {
         display: none;
     }
-    .iconos {
+    .contacto {
         margin-top: 50px;
     }
 
