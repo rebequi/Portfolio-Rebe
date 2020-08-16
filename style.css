@@ -344,6 +344,7 @@ body {
     }
 
     .imagen-presentacion {
+
         width: 85%;
     
     }
@@ -426,10 +427,6 @@ body {
         
     }
 
-    .imagen-presentacion {
-        height: 100%;
-        width: auto;
-    }
 
     /*  aqui empieza mis conocimientos*/
 
