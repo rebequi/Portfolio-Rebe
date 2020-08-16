@@ -88,7 +88,7 @@ body {
 .nombre { 
     
     font-weight: 900;
-    font-size: 55px;
+    font-size: 60px;
     color: #000000;
     margin-top: 10px;
     margin-bottom: 50px;
@@ -97,6 +97,7 @@ body {
 .estudiante {
     margin-bottom: 50px;
 }
+
 
 .imagen-presentacion {
     height: auto;
@@ -189,8 +190,9 @@ body {
 }
 
 .oracion {
-    font-size: 20px;
+    font-size: 25px;
     font-style: italic;
+    padding:50px;
 }
 .VirginiaWolf {margin-top: 50px;
     font-size: 20px;
@@ -258,22 +260,23 @@ body {
 .contacto {
     margin-bottom: 50px;
     display: flex;
-    text-decoration: none;
-   
+}
+.contacto a {
+  text-decoration: none;
 }
 
+.contacto a :hover {
+    color: #7F95D1
+
+}
 
 
 .devicon-github-plain, .fas , .fa-envelope, .devicon-linkedin-plain {
     font-size: 35px;
     margin-left: 20px;
     color: black;
-   
-
-
 }
 
-    
 
 .text-footer {
     margin-bottom: 50px;
@@ -284,21 +287,18 @@ body {
 
 /* empieza media */
 
+/*  MEDIA PARA 600px */
+
 
 @media (max-width: 600px) {
     .navegacion li{
         display: none;
 
     }
-
-    .header {
-        display: flex;
-        justify-content: end;
-
-    }
     
     .menu-hamburguesa {
         display: block;
+        margin-right: 20px;
         
     }
 
@@ -334,7 +334,7 @@ body {
     }
     .estudiante {
         font-size: 15px;
-        max-width: 500px;
+        max-width: 600px;
     }
 
     .imagen-rebeca {
@@ -370,7 +370,7 @@ body {
         width: 100%;
     }
     .oracion {
-        font-size: 20px;
+        font-size: 15px;
         padding: 40px;
     }
 
@@ -395,3 +395,49 @@ body {
 
 
 }
+
+/*  MEDIA PARA MINIMO 600px Y MAX 900PX */
+
+
+@media(min-width: 600px) and (max-width:900px) {
+/*  aqui empieza el header */
+       .navegacion li{
+           
+        display: none;
+    } 
+
+    .menu-hamburguesa {
+        display: block;
+        margin-right: 20px;
+        
+    }
+
+
+    /*  aqui empieza presentacion */
+
+    .nombre{
+        font-size: 50px;
+        
+    }
+
+    /*  aqui empieza mis conocimientos*/
+
+    .contenedor {
+    
+        font-size: 18px;
+        font-weight: 700;
+        flex-wrap: wrap;
+    
+    }
+
+
+ /*  aqui empieza la frase*/
+
+ .oracion {
+    font-size: 20px;
+    padding: 40px;
+}
+ 
+
+}
+
