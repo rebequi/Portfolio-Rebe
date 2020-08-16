@@ -382,6 +382,11 @@ body {
         flex-wrap: wrap;
     }
 
+    .linkheader { 
+        font-size: 12px;
+        margin-right: 10px;
+    } 
+
     /* empieza el footer*/
     .footer {
         flex-wrap: wrap
@@ -419,6 +424,11 @@ body {
     .nombre{
         font-size: 50px;
         
+    }
+
+    .imagen-presentacion {
+        height: 100%;
+        width: auto;
     }
 
     /*  aqui empieza mis conocimientos*/
