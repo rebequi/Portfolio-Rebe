@@ -338,10 +338,6 @@ body {
         max-width: 600px;
     }
 
-    .imagen-rebeca {
-        display: flex;
-        justify-content: center;
-    }
 
     .imagen-presentacion {
 
@@ -427,11 +423,6 @@ body {
         
     }
 
-    .imagen-presentacion {
-        display: flex;
-        align-items: flex-start; /* a ver que pasa con la imagen  */
-      
-    }
 
 
     /*  aqui empieza mis conocimientos*/
