@@ -427,6 +427,12 @@ body {
         
     }
 
+    .imagen-presentacion {
+        display: flex;
+        align-items: flex-start; /* a ver que pasa con la imagen  */
+      
+    }
+
 
     /*  aqui empieza mis conocimientos*/
 
