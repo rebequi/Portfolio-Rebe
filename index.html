@@ -19,6 +19,18 @@
             
             <ul class="navegacion">
                 <div class=menu-hamburguesa><i class="fas fa-bars"></i></div>
+
+                <!-- Tanto los <i> como los <a> tienen la misma clase.
+                    Debería tenerlo solo uno de ellos. 
+                
+                Por otro lado, siempre que en una clase tengas dos palabras, lo mejor es 
+                separarlas con un guion: link-header. Eso facilita la lectura, y mantener estas convenciones 
+                entre los desarrolladores nos ayudan a encontrar lo que buscamos más rapido en el código
+                de los demás. 
+            
+                Noto que reutilizas esta clase en el footer. Es "linkheader" un buen nombre para algo que
+                se usa tanto en el header como el footer? Mejor llamarlo "link". -->
+
                 <li class="linkheader">
                     <a href="#hola" class="linkheader">HOLA</a>
                 </li>
@@ -29,6 +41,15 @@
                     <a href="#proyectos" class="linkheader">PROYECTOS</a>
                 </li>
                 <li class="linkheader">
+
+                    <!-- En lugar de hacer una sola clase linkheader-boton-azul, podriamos haber hecho dos clases:
+                    linkheader y boton-azul
+                    Con lo que el elemento quedaria asi:
+                    <a href="#contacto" class=" linkheader boton-azul">CONTACTO</a>
+
+                    Luego en el css podemos reutilizar los estilos de .linkheader y agregar solo los
+                    necesarios para .boton-azul. Esto permite que el codigo sea menos repetitivo.  -->
+
                     <a href="#contacto" class=" linkheader-boton-azul">CONTACTO</a>
                 </li>
 
@@ -39,15 +60,23 @@
     <section id="hola" class="presentacion">
         <div class="texto-presentacion">
             <h4 class="tittle-parrafo-presentacion"> ¡Hola! Soy </h4>
+            <!-- Aqui te olvidaste las comillas en las clases "nombre" y "estudiante". Si bien
+            HTML5 permite esto, se considera mala practica (y va a traer errores cuando incorporemos
+            otras tecnologias, como React)
+            Trata de siempre agregarlas a tu codigo. 
+        
+        Por otro lado, este es el texto más importante de tu portfolio: tendrias que estar usando un h1. -->
             <h5 class=nombre> Rebeca Ballesteros</h5>
             <p class=estudiante>Estudiante de desarrollo Frontend, de gastronomía y amante del dibujo </p>
 
             <div class="loquehago"> 
                 
+                <!-- No es buena practica dejar espacios entre los atributos y sus valores -->
               <a href = "#proyectos" class ="linkheader-boton-azul">Lo que hago </a>
 
                 </div> 
         </div>
+        <!-- Nuevamente aqui olvidaste las comillas -->
         <div class=imagen-rebeca>
 
             <img class="imagen-presentacion" src="img/download.png">
@@ -61,6 +90,11 @@
     <section id="conocimientos" class="misconocimientos">
 
         <div>
+            <!-- Este no deberia ser un h1, ya que tiene la misma jerarquia que "mis proyectos" 
+            
+            No son buenos estos nombres. Por que tittle con doble t? Por que -1 al final? 
+            Ese tipo de detalles pueden traerte problemas a futuro. Siempre nombres descriptivos:
+            "titulo-mis-conocimientos" y "descripcion-mis-conocimientos" -->
             <h1 class="tittle-parrafo-1">Mis conocimientos</h1>
             <h3 class="text-parrafo-1"> Herramientas con las que trabajamos de mano y que voy a aprender a lo largo del curso</h3>
         </div>
@@ -106,11 +140,21 @@
 
     <section class="frase">
         <div class="comilla">
+
+            <!-- No tenes por qué saber esto, asi que no lo tomo como correccion sino solo como comentario:
+            no es buena practica usar texto para elementos decorativos, como lo es la comilla en este caso. 
+            Los lectores de pantalla, las herramientas que usan las personas no-videntes para 
+            recorrer nuestra web, necesitan los elementos de texto para leerle a los usuarios. 
+            Si usamos texto para decorar, el lector de pantalla va a leerlo y va a confundir a nuestro
+            usuario. En este caso, es mucho mejor utilizar un icono o una imagen.  -->
+
             <span>"</span>
         </div>
         <div class="oracion">As a woman I have no country. As a woman I want no country. As a woman, my country is the
             whole world.</div>
 
+            <!-- Aqui olvidaste las comillas.
+                 Tampoco es recomendable usar mayusculas en los nombres de clase -->
         <div class=VirginiaWolf>Virginia Wolf</div>
 
 
@@ -123,6 +167,7 @@
     <section id="proyectos" class="proyectos">
 
         <div>
+            <!-- Esto es un titulo, por lo que deberia ser un h2.  -->
             <p class="tittle-parrafo-1"> Mis proyectos</p>
         </div>
         <div class="container-listaproyectos">
@@ -151,6 +196,8 @@
         <div class="proyectos-container">
 
             <div class="tarjetas">
+
+                <!-- En toda tu seccion de tarjetas olvidaste las comillas en el src. Ojo con eso! -->
                 <img class="imagen-proyecto" src=./img/download.png>
 
                 <p>Portfolio</p>
@@ -216,6 +263,7 @@
         </nav>
 
         <div class="contacto">
+            <!-- Nuevamente aqui olvidaste las comillas -->
             <div class=github>
                 <a href=https://github.com/rebequi /><i class="devicon-github-plain"></i></a>
 
