@@ -14,7 +14,7 @@ body {
 }
 
 .navegacion {
-    
+    /* fafafa! :D */
     background-color: #fafafa;
     height: 70px;
     display: flex;
@@ -40,12 +40,16 @@ body {
 }
 
 .linkheader-boton-azul {
+
+    /* Al ser los <a> elementos en linea, no se les aplica width 
+    Si queres darle un ancho fijo, tenes que agregar display: block;  */
     color: whitesmoke;
     background-color: #4BBEBE;
     text-decoration: none;
     font-weight: 200;
     height: 30px;
     width:250px;
+    /* Estos elementos se ven algo angostos de mas. Yo les daria 10px de padding */
     padding: 5px;
     border-radius: 100px;
    
@@ -62,7 +66,9 @@ body {
     background-size: cover;
     height: 100vh;
     display: flex;
+    /* no es necesario justify content center aqui, ya que los elementos ocupan todo el espacio horizontal */
     justify-content: center;
+    /* no es necesario decir flex direction row: se pone por defecto */
     flex-direction: row;
     align-items: center;
     padding-left: 50px;
@@ -80,6 +86,8 @@ body {
 
 }
 
+/* Aqui tenes un error de sintaxis (dos puntos antes de la llave) por lo que este estilo
+no se esta aplicando */
 .tittle-parrafo-presentacion: {
      font-size: 50px;
 }
@@ -111,6 +119,7 @@ body {
 
 .misconocimientos {
     display: flex;
+    /* wrap no es necesario aqui  */
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
@@ -250,6 +259,7 @@ body {
     
 }
 
+/* Fijate que como los ul ponen un padding-left por defecto, esta seccion no esta perfectamente centrada */
 .navegacion-footer { display: flex;
     justify-content: center;
     margin-top: 50px;
@@ -258,6 +268,7 @@ body {
 }
 
 /* aqui puse display flex para poner los iconos uno al lado del otro, si lo borro se colocan verticales */
+/* Respondo aqui: se coloran verticales porque estan dentro de divs: es lo correcto agregar flex aqui */
 .contacto {
     margin-bottom: 50px;
     display: flex;
@@ -265,7 +276,7 @@ body {
 .contacto a {
   text-decoration: none;
 }
-
+/* no es buena practica poner un espacio entre elementos y sus pseudoclases */
 .contacto a :hover {
     color: #7F95D1
 
@@ -313,6 +324,7 @@ body {
 
     .texto-presentacion, .presentacion {
      flex-wrap: wrap;
+     /* no es necesario este width 100% aqui, ni justify, ni align items, ya que se heredan */
      width: 100%;
      justify-content: center;
      padding: 0;
@@ -326,6 +338,7 @@ body {
     }
 
     .linkheader-boton-azul {
+        /* este width no se aplica porque es un elemento en linea */
         width: 110px;
 
     }
@@ -341,19 +354,21 @@ body {
 
 
     .imagen-presentacion {
-
+        /* Esto no es necesario: tu imagen ya tiene width: 100% de los estilos en desktop */
         width: 100%;
     
     }
 
      /* empieza mis conocimientos*/
 
+     /* no son necesarios estos estilos */
     .misconocimientos{
         flex-wrap: wrap;
         height:  100%;
 
     }
 
+    
     .contenedor{
         flex-wrap: wrap;
         height:  100%;
@@ -365,6 +380,7 @@ body {
      /* empieza la frase*/
    
     .frase{
+        /* no son necesarios estos estilos */
         flex-wrap: wrap;
         width: 100%;
     }
@@ -387,6 +403,7 @@ body {
 
     /* empieza el footer*/
     .footer {
+        /* no son necesarios estos estilos */
         flex-wrap: wrap
 
     }
