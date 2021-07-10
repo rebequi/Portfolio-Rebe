@@ -13,13 +13,18 @@ body {
 
 }
 
+
 .navegacion {
     
     background-color: #fafafa;
-    height: 70px;
+    height: 90px;
     display: flex;
-    align-items: center;
+    align-items: center; 
     justify-content: flex-end;
+    position: fixed;
+    width: 100vw;
+    padding: 0;
+    box-shadow: 0 0 29px 0 #c07afa;
 }
 
 .menu-hamburguesa {
@@ -66,8 +71,6 @@ body {
     flex-direction: row;
     align-items: center;
     padding-left: 50px;
-   
-    
 
 }
 
@@ -80,7 +83,7 @@ body {
 
 }
 
-.tittle-parrafo-presentacion: {
+.tittle-parrafo-presentacion {
      font-size: 50px;
 }
 
@@ -94,11 +97,17 @@ body {
     margin-bottom: 50px;
 }
 
-.estudiante {
+.descripcion-presentacion {
     margin-bottom: 50px;
 }
 
+.loquehago {
+    margin-top: 50px;
+}
 
+.imagen-rebeca {
+    padding-top: 90px;
+}
 .imagen-presentacion {
     height: auto;
     width: 100%;
@@ -146,6 +155,13 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+.tarjetas:hover, p>.tarjetas:hover{
+    border: 1.6px solid #ea56f7 ;
+    color: #ea56f7  ;
+    
+}
+
 
 .imagen {
     margin-top: 20px;
@@ -240,6 +256,102 @@ body {
 
 /* aqui termina "proyectos"*/
 
+/* aqui empieza estilado para formulario*/
+.formulario {
+    background-color: #fafafa ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.container-formulario {
+    background-color: #fff;
+    border: #acbeee solid 0.2px;
+    width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    padding-bottom: 80px;
+
+}
+
+.columna-formulario {
+    background-color: #fff;
+    max-width: 350px;
+
+}
+.tittle-formulario > p {
+    text-align: left;
+}
+
+.parrafo-formulario > p {
+    text-align: left;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.
+
+.icons-formulario-contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.icons-formulario-contacto a  {
+ text-decoration: none;
+ color: #2e2e31;
+
+}
+
+.icons-formulario-contacto div  {
+   margin-top: 15px;
+   }
+.icons-formulario-contacto a:hover  {
+    color: #7F95D1;
+   
+   }
+   
+
+input, textarea {
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #7F95D1;
+    background-color: #f6f7fb;
+}
+
+
+form > div {
+    margin-top: 30px;
+}
+
+.input-nombre-completo{
+    display: flex;
+    margin-top: 50px;
+}
+
+.input-nombre-completo > div {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+.input-email > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-mensaje > div {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* aqui termina estilado para formulario de contacto*/
+
 .footer {
     background-color: #FFC0BE ;
     display: flex;
@@ -267,13 +379,14 @@ body {
 }
 
 .contacto a :hover {
-    color: #7F95D1
+    color: #7F95D1;
+   
 
 }
 
 
 .devicon-github-plain, .fas , .fa-envelope, .devicon-linkedin-plain {
-    font-size: 35px;
+    font-size: 20px;
     margin-left: 20px;
     color: black;
 }
@@ -385,6 +498,18 @@ body {
         margin-right: 10px;
     } 
 
+    /* empiezan el formulario de contacto*/
+
+    .container-formulario {
+        display: flex;
+        flex-wrap: wrap;
+        padding-left:10px ;
+        padding-right: 10px;
+       
+    }
+
+      /*fin del formulario de contacto*/
+
     /* empieza el footer*/
     .footer {
         flex-wrap: wrap
@@ -448,7 +573,20 @@ body {
     font-size: 20px;
     padding: 40px;
 }
+
+
+ /*  aqui termina la frase*/
+
+/*  aqui empieza el formulario */
+.container-formulario {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left:10px ;
+    padding-right: 10px;
+   
+}
  
+/*  aqui termina el formulario */
 
 }
 
